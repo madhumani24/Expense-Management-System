@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   rel="stylesheet"  href="index.css">
+    <title>Expense Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav>
+       <i id="icons" onclick="menuopen1()" class="fa-solid fa-bars menuicon"></i>
+       <h1>Money</h1>
+       <div id="home">
+            <i id="icons" class="fa-solid fa-magnifying-glass  icon1"></i>
+            <i id="icons" class="fa-solid fa-money-bill-transfer  icon2"></i>
+            <i onclick="menuopen2()" id="icons" class="fa-solid fa-ellipsis-vertical   icon3"></i>
+       </div>
+    </nav>
+    <div id="threelines">
+        <button class="closebtn" onclick="closebtn()">close</button>
+        <select>
+            <option>All accounts <br> GBP</option>
+            <option>Cash <br> GBP</option>
+            <option>Payment Card <br> GBP</option>
+        </select><br>
+        <button class="day">Day</button><br>
+        <button class="week">Week</button><br>
+        <button class="month">Month</button><br>
+        <button class="year">Year</button><br>
+        <button class="all">All</button><br>
+        <button class="internal">Interval</button><br>
+        <input type="date" placeholder="Choose date">
+    </div>
+    
+
+    <div class="threedots">
+        <button class="closebtn" onclick="closebtn()">close</button>
+        <button>Categories</button><br>
+        <button>Accounts</button><br>
+        <button>Currencies</button><br>
+        <button>Settings</button><br>
+    </div>
+    
+    <div class="mainpage">
+        
+
+        <div class="homepage">
+            <button class="roundbtn1">$0.00</button><br>
+            <button class="balancebtn">Balance $0.00</button>
+            <div class="roundtns">
+            <button class="roundbtn2">-</button>
+            <button class="roundbtn3">+</button>
+        </div>
+    </div>
+    
+</body>
+</html>

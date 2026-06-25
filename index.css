@@ -1,3 +1,4 @@
+/*nav bar styling  */
 nav{
     display: flex;
     flex-direction: row;
@@ -9,12 +10,15 @@ nav{
     padding-right: 10px;
     padding-top: 10px;
 }
+/*h1(Money) in nav bar styling */
 nav h1 {
    margin-block: 0;
 }
+/*icons in nav bar styling */
 #icons{
     font-size: 40px;
 }
+/*icon1 indicates search icon , icon2 indicates transaction icon,icon3 indicates threedots icon */
 .icon1 ,.icon2 , .icon3{
     padding-right: 30px;
 }
@@ -25,14 +29,17 @@ nav h1 {
     padding-left: 40px;
     padding-top: 10px;
 }
+/*select button in threelines menu */
 #threelines select{
     width: 150px ;
     height: 40px;
 }
+/*date button in threelines menu*/
 #threelines input{
-     width: 150px ;
+    width: 150px ;
     height: 40px;
 }
+/*buttons styling in threedots menu*/
 .threedots button{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -47,6 +54,7 @@ nav h1 {
    padding-left: 40px;
    margin-right:  0px;
 }
+/*balance button styling in homepage*/
 .balancebtn{
     height: 40px;
     width: 150px;
@@ -55,8 +63,9 @@ nav h1 {
     color: white;
     background-color: lawngreen;
     border-radius: 4px;
-} 
-.roundbtn1{
+}
+/* pie chart styling*/
+.piechart{
     height: 170px;
     width: 170px;
     border-radius: 90px;
@@ -66,30 +75,35 @@ nav h1 {
     border-style: solid;
     border-width: 20px;
 }
-.roundtns{
+/* minus(-) and plus(+) buttons styling */
+.roundbtns{
     display: flex;
     flex-direction: row;
     margin-left: 35%;
     margin-top: 4%;
-}
 
-.roundtns button{
+}
+/* minus(-) and plus(+) buttons styling*/
+.roundbtns button{
     height: 120px;
     width: 120px;
     border-radius: 60px;
 }
+/* minus(-) button*/
 .roundbtn2{
     margin-right: 105px;
     border-color: red;
     border-style: solid;
     border-width: 8px;
 }
+/*plus(+) button */
 .roundbtn3{
     border-color: lawngreen;
     border-style: solid;
     border-width: 8px;
     margin-left: 5px;
 }
+/*close button*/
 .closebtn{
     height:20px;
     width: 40px;
@@ -98,15 +112,12 @@ nav h1 {
     margin-right: 3px;
     background-color: rgb(235, 221, 195);
 }
+/*day , week,month,year,all,interval buttons in threelines menu*/
 .day,.week,.month,.year,.all,.internal{ 
     margin-top: 20px;
     margin-bottom: 20px;
     height: 40px;
     width: 150px;
-}
-.mainpage{
-    height: 80vh;
-
 }
 
 

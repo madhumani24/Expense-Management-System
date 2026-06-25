@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--The below link is to add css file-->
     <link   rel="stylesheet"  href="index.css">
     <title>Expense Management System</title>
+    <!--The below link is to add icons-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--the below link is to add js file-->
     <script src="index.js" defer></script>
 </head>
 <body>
+    <!--nav bar--> 
     <nav>
+        <!--threelines icon-->
        <i id="icons" onclick="menuopen1()" class="fa-solid fa-bars menuicon"></i>
        <h1>Money</h1>
        <div id="home">
+            <!--search icon-->
             <i id="icons" class="fa-solid fa-magnifying-glass  icon1"></i>
+            <!--transaction icon-->
             <i id="icons" class="fa-solid fa-money-bill-transfer  icon2"></i>
+            <!--threedots icon-->
             <i onclick="menuopen2()" id="icons" class="fa-solid fa-ellipsis-vertical   icon3"></i>
        </div>
     </nav>
+    <!--Menu for threelines icon-->
     <div id="threelines">
+        <!--close button in threelines menu category-->
         <button class="closebtn" onclick="closebtn()">close</button>
         <select>
             <option>All accounts <br> GBP</option>
@@ -33,8 +43,7 @@
         <button class="internal">Interval</button><br>
         <input type="date" placeholder="Choose date">
     </div>
-    
-
+    <!--Menu for threedots icon-->
     <div class="threedots">
         <button class="closebtn" onclick="closebtn()">close</button>
         <button>Categories</button><br>
@@ -42,18 +51,21 @@
         <button>Currencies</button><br>
         <button>Settings</button><br>
     </div>
-    
-    <div class="mainpage">
-        
-
-        <div class="homepage">
-            <button class="roundbtn1">$0.00</button><br>
-            <button class="balancebtn">Balance $0.00</button>
-            <div class="roundtns">
+    <!--homepage-->
+    <div class="homepage">
+        <!--Pie chart as  button -->
+        <button class="piechart">$0.00</button><br>
+        <!--balance button-->
+        <button class="balancebtn">Balance $0.00</button>
+        <!-- minus(-) and plus(+) buttons-->
+        <div class="roundbtns">
+            <!--minus(-) button-->
             <button class="roundbtn2">-</button>
+            <!--plus(+) button-->
             <button class="roundbtn3">+</button>
         </div>
     </div>
+    
     
 </body>
 </html>
